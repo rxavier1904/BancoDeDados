@@ -39,15 +39,15 @@ A implementação relacional foi feita utilizando **SQLite** e **Python**. O mod
 * **Herança/Generalização:** Implementação da superclasse `Pessoa` especializada em `Jogador`, `Técnico`, `Árbitro` e `Presidente`.
 * **Entidade Fraca:** A tabela `Súmula` depende estritamente da `Partida`.
 * **Relacionamentos Complexos:**
-* Histórico de Clubes (`Clubes_anteriores`).
-* Patrocínio vinculado à participação no campeonato (`Patrocinado`).
+** Histórico de Clubes (`Clubes_anteriores`).
+** Patrocínio vinculado à participação no campeonato (`Patrocinado`).
 
 
 * **Consultas Implementadas (`consultas.py`):**
-* Junções (Inner, Left Outer).
-* Subconsultas (Escalar, Linha e Tabela).
-* Operações de Conjunto (Union).
-* Semi-Join e Anti-Join (via `EXISTS` / `NOT EXISTS`).
+** Junções (Inner, Left Outer).
+** Subconsultas (Escalar, Linha e Tabela).
+** Operações de Conjunto (Union).
+** Semi-Join e Anti-Join (via `EXISTS` / `NOT EXISTS`).
 
 
 
